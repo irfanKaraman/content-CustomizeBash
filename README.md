@@ -14,6 +14,7 @@
   ./install.sh Hack
   ./install.sh JetBrainsMono
   ./install.sh Meslo
+  
   or install all of them use:
   ./install.sh
   ```
@@ -76,8 +77,9 @@
   ```
   sudo apt install bat
   ```
-  edit starship.toml for alias
+  Edit .zshrc file and add this line
   ```
+  vi ~/.zshrc
   alias cat='bat --paging=never'
   ```
 > https://github.com/sharkdp/bat?ysclid=llcazs2e43758338583
