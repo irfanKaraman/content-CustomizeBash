@@ -33,6 +33,7 @@
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   ```
 > https://ohmyz.sh/
+
 > https://github.com/ohmyzsh/ohmyzsh
 
 
@@ -49,6 +50,36 @@
    ```
   vi ~/.zshrc
   plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+  ```
+
+
+# Install Starship
+  ```
+  curl -sS https://starship.rs/install.sh | sh
+  ```
+> https://starship.rs/
+
+# Activate Starship
+  Edit .zshrc file and add this line
+   ```
+  vi ~/.zshrc
+  eval "$(starship init zsh)"
+  ```
+
+# Install fzf (FuzzyFinder)
+  ```
+  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  ~/.fzf/install
+  ```
+
+
+# Install Bat
+  ```
+  sudo apt install bat
+  ```
+  edit starship.toml for alias
+  ```
+  alias cat='bat --paging=never'
   ```
 
 
