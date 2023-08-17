@@ -18,7 +18,7 @@
   or install all of them use:
   ./install.sh
   ```
-> [Download NERD Fonts Manually](https://www.nerdfonts.com/font-downloads)
+> [Download NERD Fonts Manually](https://www.nerdfonts.com)
 
 # Install ZSH
   ```
