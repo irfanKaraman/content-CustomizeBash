@@ -1,13 +1,23 @@
 # 02 - Tech Talks | DevOps Series
-> 
+> Bash/CLI/Shell Personalization (Install plugins and Addons on Windows Terminal & Ubuntu/Linux & Git & VScode & Powershell)
 
 
 
-# Git Bash Download Link
-> https://gitforwindows.org/
+# NERD FONTS
+> [Download NERD Fonts/](https://www.nerdfonts.com/font-downloads)
 
-- Check here for updates > https://github.com/nodesource/distributions#debinstall
-
+- Linux Bash
+  ```
+  git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
+  cd nerd-fonts
+  ```
+  ```
+  ./install.sh Hack
+  ./install.sh JetBrainsMono
+  ./install.sh Meslo
+  or install all of them use:
+  ./install.sh
+  ```
 
 
 # null 
