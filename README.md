@@ -4,8 +4,6 @@
 
 
 # Download & Install Nerd Fonts
-> [Download NERD Fonts Manually](https://www.nerdfonts.com/font-downloads)
-
 - Linux Bash Commands
   ```
   git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
@@ -19,7 +17,7 @@
   or install all of them use:
   ./install.sh
   ```
-
+> [Download NERD Fonts Manually](https://www.nerdfonts.com/font-downloads)
 
 # Install ZSH
   ```
@@ -71,6 +69,7 @@
   git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
   ~/.fzf/install
   ```
+> https://github.com/junegunn/fzf?ysclid=llcaxgzfpr814431589
 
 
 # Install Bat
@@ -81,10 +80,7 @@
   ```
   alias cat='bat --paging=never'
   ```
+> https://github.com/sharkdp/bat?ysclid=llcazs2e43758338583
 
 
 
-- null
-```
- curl -i http://localhost:PORT
-```
