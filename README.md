@@ -82,5 +82,8 @@
   ```
 > https://github.com/sharkdp/bat?ysclid=llcazs2e43758338583
 
+# My DotFiles Setup
+> https://github.com/irfanKaraman/DotFiles
+
 
 
