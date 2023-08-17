@@ -4,7 +4,7 @@
 
 
 # NERD FONTS
-> [Download NERD Fonts/](https://www.nerdfonts.com/font-downloads)
+> [Download NERD Fonts Manually/](https://www.nerdfonts.com/font-downloads)
 
 - Linux Bash
   ```
@@ -12,6 +12,7 @@
   cd nerd-fonts
   ```
   ```
+  Install specific font:
   ./install.sh Hack
   ./install.sh JetBrainsMono
   ./install.sh Meslo
@@ -20,7 +21,20 @@
   ```
 
 
-# null 
+# ZSH
+> https://www.zsh.org/
+  ```
+  sudo apt install zsh
+  ```
+
+
+# Oh-My-Zsh
+> https://ohmyz.sh/
+> https://github.com/ohmyzsh/ohmyzsh
+  ```
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
+
 
 
 - null
