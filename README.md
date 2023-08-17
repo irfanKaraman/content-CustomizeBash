@@ -3,10 +3,10 @@
 
 
 
-# NERD FONTS
-> [Download NERD Fonts Manually/](https://www.nerdfonts.com/font-downloads)
+# Download & Install Nerd Fonts
+> [Download NERD Fonts Manually](https://www.nerdfonts.com/font-downloads)
 
-- Linux Bash
+- Linux Bash Commands
   ```
   git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
   cd nerd-fonts
@@ -21,18 +21,34 @@
   ```
 
 
-# ZSH
-> https://www.zsh.org/
+# Install ZSH
   ```
   sudo apt install zsh
   ```
+> https://www.zsh.org/
 
 
-# Oh-My-Zsh
-> https://ohmyz.sh/
-> https://github.com/ohmyzsh/ohmyzsh
+# Install Oh-My-Zsh
   ```
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
+> https://ohmyz.sh/
+> https://github.com/ohmyzsh/ohmyzsh
+
+
+# Install ZSH Plugins
+  Auto-Suggestions + Syntax Highlighting
+  ```
+  git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions 
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+  ```
+
+
+# Activate ZSH Plugins
+  Edit .zshrc file
+   ```
+  vi ~/.zshrc
+  plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
   ```
 
 
